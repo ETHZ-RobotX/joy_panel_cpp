@@ -19,6 +19,7 @@ AutonomyPanel::AutonomyPanel(QWidget* parent)
   // Create the UI elements
   layout->addWidget(new QLabel("Autonomy Control"));
   autonomy_switch_ = new QCheckBox("Enable Autonomy");
+  autonomy_switch_->setChecked(true); // Start in autonomy mode
   layout->addWidget(autonomy_switch_);
 
   status_label_ = new QLabel("Status: Awaiting Initialization");
