@@ -1,0 +1,10 @@
+<library path="joy_panel_cpp">
+  <class
+      name="joy_panel_cpp/AutonomyPanel"
+      type="joy_panel_cpp::AutonomyPanel"
+      base_class_type="rviz_common::Panel">
+    <description>
+      A C++ panel to act as a virtual joystick for toggling autonomy.
+    </description>
+  </class>
+</library>
